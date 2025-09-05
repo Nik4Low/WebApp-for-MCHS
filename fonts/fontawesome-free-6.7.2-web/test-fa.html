@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>FontAwesome Test</title>
+  <style>
+    @font-face {
+      font-family: 'Font Awesome 6 Free';
+      font-style: normal;
+      font-weight: 900;
+      src: url('./webfonts/fa-solid-900.woff2') format('woff2');
+    }
+    .fa-test {
+      font-family: 'Font Awesome 6 Free', sans-serif;
+      font-weight: 900;
+      font-size: 48px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>FontAwesome 6 Free: тест отображения</h2>
+  <div>
+    <span class="fa-test"></span> <span>← (должна быть иконка Print)</span>
+  </div>
+  <div>
+    <span class="fa-test"></span> <span>← (должна быть иконка Database)</span>
+  </div>
+  <div>
+    <span class="fa-test"></span> <span>← (должна быть иконка Key)</span>
+  </div>
+  <h3>SVG тест</h3>
+  <svg width="100" height="100">
+    <text x="50" y="50" text-anchor="middle" dominant-baseline="central" font-family="Font Awesome 6 Free" font-size="48"></text>
+  </svg>
+  <svg width="100" height="100">
+    <text x="50" y="50" text-anchor="middle" dominant-baseline="central" font-family="Font Awesome 6 Free" font-size="48"></text>
+  </svg>
+  <svg width="100" height="100">
+    <text x="50" y="50" text-anchor="middle" dominant-baseline="central" font-family="Font Awesome 6 Free" font-size="48"></text>
+  </svg>
+  <p>Если вы видите квадраты или буквы вместо иконок — шрифт не подключён или не загружается!</p>
+</body>
+</html> 

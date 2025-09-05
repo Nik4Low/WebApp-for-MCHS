@@ -1,0 +1,2700 @@
+{
+  "levels": {
+    "main": {
+      "name": "Карта Камчатского Края",
+      "edges": {},
+      "background": "js/layers/main_layer1.svg",
+      "nodes": {
+          "district_1": { 
+            "name": "Пенжиский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "penzhinsky"
+          },
+          "district_2": { 
+            "name": "Олюторский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "olyutorsky"
+          },
+          "district_3": { 
+            "name": "Карагинский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "karaginsky"
+          },
+          "district_4": { 
+            "name": "Тигильский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "tigilsky"
+          },
+          "district_5": { 
+            "name": "Усть-Камчатский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "ust_kamchatsky"
+          },
+          "district_6": { 
+            "name": "Быстринский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "bistrinsky"
+          },
+          "district_7": { 
+            "name": "Мильковский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "milkovsky"
+          },
+          "district_8": { 
+            "name": "Соболевский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "sobolevsky"
+          },
+          "district_9": { 
+            "name": "Усть-Большеретский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "ust_bolsherecky"
+          },
+          "district_10": { 
+            "name": "Елизовский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "elizovsky"
+          },   
+            "district_11": { 
+            "name": "Алеутский район", 
+            "shape": "circle",
+            "color": "#ff9e6d",
+            "size": 5,
+            "childLayer": "aleutsky"
+          }
+      }
+    },
+    "penzhinsky": {
+      "name": "Пенжиский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/penzhinsky.svg",
+      "nodes": {
+        "kamenskoe": {
+          "name": "Поселок Каменское",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "kamen_mchs"
+        },
+        "manil": {
+          "name": "Поселок Манилы",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "manil_mchs"
+        }
+      }
+    },
+    "kamen_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/kamenskoe.svg",
+      "nodes": {
+        "department_1": {
+          "name": "ПЧ Каменское",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_kamen"
+        }
+      }
+    },
+    "building_kamen": {
+      "name": "Здание ПЧ Каменское",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "manil_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/manily.svg",
+      "nodes": {
+        "department_2": {
+          "name": "ПЧ Манилы",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_manil"
+        }
+      }
+    }, 
+    "building_manil": {
+      "name": "Здание ПЧ Манилы",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 15
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 15
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "olyutorsky": {
+      "name": "Алюторский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/aliutorsky.svg",
+      "nodes": {
+        "tilichiki": {
+          "name": "Село Тиличики",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "tilich_mchs"
+        }
+      }
+    },
+    "tilich_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/tilichiki.svg",
+      "nodes": {
+        "department_3": {
+          "name": "ПЧ Тиличики",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_tilichiki"
+        }
+      }
+    }, 
+    "building_tilichiki": {
+      "name": "Здание ПЧ Тиличики",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "karaginsky": {
+      "name": "Карагинский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/karaginsky.svg",
+      "nodes": {
+        "ossora": {
+          "name": "Оссора",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "ossora_mchs"
+        },
+        "timlat": {
+          "name": "Тымлат",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "timlat_mchs"
+        },
+        "ivashka": {
+          "name": "Ивашка",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "ivashka_mchs"
+        }
+      }
+    },
+    "ossora_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/ossora.svg",
+      "nodes": {
+        "department_4": {
+          "name": "Оссора ГИМС",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "buildingGims_ossora"
+        },
+        "department_5": {
+          "name": "ПЧ Оссора",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "buildingPch_ossora"
+        }
+      }
+    }, 
+    "buildingGims_ossora": {
+      "name": "Здание ГИМС Тиличики",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "buildingPch_ossora": {
+      "name": "Здание ПЧ Тиличики",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "timlat_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/timlat.svg",
+      "nodes": {
+        "department_6": {
+          "name": "ПП Тымлат",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_timlat"
+        }
+      }
+    },
+    "building_timlat": {
+      "name": "Здание ПП Тымлат",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "ivashka_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/ivashka.svg",
+      "nodes": {
+        "department_7": {
+          "name": "ПП Ивашка",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_ivashka"
+        }
+      }
+    },
+    "building_ivashka": {
+      "name": "Здание ПП Ивашка",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "tigilsky": {
+      "name": "Тигильский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/tigilsky.svg",
+      "nodes": {
+        "tigil": {
+          "name": "Тигиль",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "tigil_mchs"
+        },
+        "lesnaya": {
+          "name": "Лесная",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "lesnaya_mchs"
+        },
+        "usthairuzovo": {
+          "name": "Усть-Хайрюзово",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "usthair_mchs"
+        },
+        "kovran": {
+          "name": "Ковран",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "kovran_mchs"
+        },
+        "hairuzovo": {
+          "name": "Хайрюзово",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "hairuz_mchs"
+        }      
+
+      }
+    },
+    "tigil_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/tigil.svg",
+      "nodes": {
+        "department_8": {
+          "name": "ПЧ Тигиль",
+          "shape": "rect",
+          "color": "#FF5252",
+                "size": 5,
+          "childLayer": "building_tigil"
+        }
+      }
+    },
+    "building_tigil": {
+      "name": "Здание ПЧ Тигиль",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+                      "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+                      "size": 5
+            }
+          }
+        }
+      }
+    },
+    "lesnaya_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/lesnaya.svg",
+      "nodes": {
+        "department_9": {
+          "name": "ПП лесная",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_lesnaya"
+        }
+      }
+    },
+    "building_lesnaya": {
+      "name": "Здание ПП Лесная",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }, 
+    "usthair_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/usthairuzovo.svg",
+      "nodes": {
+        "department_10": {
+          "name": "ПП Усть-Хайрюзово",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_usthair"
+        }
+      }
+    },
+    "building_usthair": {
+      "name": "Здание ПП Усть-Хайрюзово",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }, 
+    "kovran_mchs": {
+        "edges": {},
+      "background": "js/layers/local_layers/kovran.svg",
+      "nodes": {
+        "department_11": {
+          "name": "ПП Ковран",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_kovran"
+        }
+      }
+    },
+    "building_kovran": {
+      "name": "Здание ПП Ковран",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }, 
+    "hairuz_mchs": {
+        "edges": {},
+      "background": "js/layers/local_layers/hairuzovo.svg",
+      "nodes": {
+        "department_12": {
+          "name": "ПП Хайрюзово",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_hairuz"
+        }
+      }
+    },
+    "building_hairuz": {
+      "name": "Здание ПЧ Тигиль",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }, 
+    "ust_kamchatsky": {
+      "name": "Усть-Камчатский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/ustkamchatskiy.svg",
+      "nodes": {
+        "locality_12": {
+          "name": "МЧС в районе",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "dist1_mchs"
+        },
+        "locality_15": {
+          "name": "Ключи",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "keys_mchs"
+        }
+      }
+    },
+    "dist1_mchs": {
+      "name": "МЧС в районе",
+      "edges": {},
+      "background": "js/layers/dist_layers/uk_layer.svg",
+      "nodes": {
+        "locality_13": {
+          "name": "Усть-Камчатск",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "ustkam_mchs"
+        },
+        "locality_14": {
+          "name": "Крутоберегово",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "krut_mchs"
+        }
+      }
+    },
+    "ustkam_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/ustkamchatsk.svg",
+      "nodes": {
+        "department_13": {
+          "name": "ПСЧ Усть-Камчатск",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_ustkam"
+        }
+      }
+    },
+    "building_ustkam": {
+      "name": "Здание ПСЧ Усть-Камчатск",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },       
+    "krut_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/krutoberegovo.svg",
+      "nodes": {
+        "department_14": {
+          "name": "ПП Крутоберегово",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_krut"
+        } 
+      }
+    },
+    "building_krut": {
+      "name": "Здание ПП Крутоберегово",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },       
+    "keys_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/keys.svg",
+      "nodes": {
+        "department_15": {
+          "name": "ПЧ Ключи",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_keys"          
+        }
+      }
+    },
+    "building_keys": {
+      "name": "Здание ПЧ Тигиль",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }, 
+    "bistrinsky": {
+      "name": "Быстринский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/bistrinsky.svg",
+      "nodes": {
+        "locality_16": {
+          "name": "Эссо",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5
+        }
+      }
+    },
+    "milkovsky": {
+      "name": "Мильковский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/milkovsky.svg",
+      "nodes": {
+        "locality_17": {
+        "name": "Мильково",
+        "shape": "circle",
+        "color": "#64B5F6",
+        "size": 5,
+        "childLayer": "milkovo_mchs"
+        },
+        "locality_18": {
+        "name": "Атласово",
+        "shape": "circle",
+        "color": "#64B5F6",
+        "size": 5,
+        "childLayer": "atlasovo_mchs"
+        },
+        "locality_19": {
+        "name": "Шаромы",
+        "shape": "circle",
+        "color": "#64B5F6",
+        "size": 5,
+        "childLayer": "sharomi_mchs"
+        }
+      }
+    },
+    "milkovo_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/milkovo.svg",
+      "nodes": {
+        "department_16": {
+          "name": "МЧС Мильково",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_milkovo"
+        }
+      }
+    },
+    "building_milkovo": {
+      "name": "Здание МЧС Мильково",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+                      "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+                      "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },  
+    "atlasovo_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/atlasovo.svg",
+      "nodes": {
+        "department_17": {
+          "name": "ПЧ Атласово",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_atlasovo"          
+        }
+      }
+    },
+    "building_atlasovo": {
+      "name": "Здание ПЧ Атласово",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },  
+    "sharomi_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/sharomi.svg",
+      "nodes": {
+        "department_18": {
+          "name": "ПЧ Шаромы",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_sharomi"
+        }
+      }
+    },
+    "building_sharomi": {
+      "name": "Здание ПЧ Шаромы",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },  
+    "sobolevsky": {
+      "name": "Соболевский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/sobolevsky.svg",
+      "nodes": {
+        "locality_20": {
+          "name": "Соболево",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5         
+        }
+      }
+    },
+    "ust_bolsherecky": {
+      "name": "Усть-Большеретский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/ust_bolsherecky.svg",
+      "nodes": {
+        "locality_21": {
+          "name": "Апача",
+          "shape": "circle",
+          "color": "#64B5F6",
+                      "size": 5,
+          "childLayer": "apacha_mchs"
+        },
+        "locality_22": {
+        "name": "Ковлерское",
+        "shape": "circle",
+        "color": "#64B5F6",
+        "size": 5,
+        "childLayer": "kovalerskoe_mchs"
+        }
+      }
+    },
+    "apacha_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/apacha.svg",
+      "nodes": {
+        "department_19": {
+          "name": "ПП Апача",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_apacha"          
+        }
+      }
+    },
+    "building_apacha": {
+      "name": "Здание ПП Апача",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },  
+      "kovalerskoe_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/kovalerskoe.svg",
+      "nodes": {
+        "department_20": {
+          "name": "ПП Ковалерское",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_kovalerskoe"          
+        }
+      }
+    },
+    "building_kovalerskoe": {
+      "name": "Здание ПП Ковалерское",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }, 
+    "elizovsky": {
+      "name": "Елизовский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/elizovsky.svg",
+      "nodes": {
+        "locality_23": {
+          "name": "МЧС в районе",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "dist_mchs"
+        }      
+      }
+    },
+    "dist_mchs": {
+      "name": "МЧС в Елизовском районе",
+      "edges": {},
+      "background": "js/layers/dist_layers/pk_layer.svg",
+      "nodes": {
+        "locality_24": {
+          "name": "Петропавловск-Камчатский",
+          "shape": "circle",
+          "color": "#64B5F6",
+                "size": 5,
+          "childLayer": "petropavlovlsk_mchs"
+          
+        },
+        "locality_25": {
+          "name": "Елизово",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "elizovo_mchs"
+        },
+        "locality_26": {
+          "name": "Вилючинск",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "viluchinsk_mchs"
+        },
+        "locality_27": {
+          "name": "Коряки",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "koryaki_mchs"
+        },
+        "locality_28": {
+          "name": "Сокоч",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "sokoch_mchs"
+        },
+        "locality_29": {
+          "name": "Николаевка",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "nikolaevka_mchs"
+        },
+        "locality_30": {
+          "name": "Паратунка",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "paratunka_mchs"
+        }
+      }
+    }, 
+    "petropavlovlsk_mchs": {
+        "name": "Петропавловск-Камчатский",
+      "edges": {},
+      "background": "js/layers/local_layers/petropavlovsk.svg",
+      "nodes": {
+        "locality_31": {
+          "name": "ГУ МЧС",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "glav_mchs"
+        },
+        "locality_32": {
+          "name": "ПЧ №3",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "pch3_mchs"
+        },
+        "department_21": {
+          "name": "ПЧ №2",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_pch2"
+        },
+        "department_22": {
+          "name": "СПСЧ",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_spsch"          
+        },
+        "department_23": {
+          "name": "ЦОД Петропавловск",
+          "shape": "rect",
+          "color": "#FF5252",
+              "size": 5,
+          "childLayer": "building_cod"          
+        },
+        "department_24": {
+          "name": "СЭУФПС Петропавловск",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_sfps"
+        },
+        "department_25": {
+          "name": "ВДПО Петропавловск",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_vdpo"          
+        }
+      }
+    },
+    "building_pch2": {
+      "name": "Здание ПЧ №2",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_spsch": {
+      "name": "Здание СПСЧ",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_cod": {
+      "name": "Здание ЦОД",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+                "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_sfps": {
+      "name": "Здание СЭУФПС Петропавловск",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_vdpo": {
+      "name": "Здание ВДПО Петропавловск",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }, 
+    "glav_mchs": {
+      "edges": {},
+      "background": "js/layers/dist_layers/glav_mchs.svg",
+      "nodes": {
+        "department_26": {
+          "name": "ГУ МЧС России по Камчатскому краю ",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 18,
+          "childLayer": "building_glav"          
+        },
+        "department_27": {
+          "name": "ПЧ №1",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 18,
+          "childLayer": "building_pch1"
+        }
+      }
+    },
+    "building_glav": {
+      "name": "Здание ГУ МЧС России по Камчатскому краю",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_pch1": {
+      "name": "Здание ПЧ №1",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+                  "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+                  "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }, 
+    "pch3_mchs": {
+      "edges": {},
+      "background": "js/layers/dist_layers/pch3_mchs.svg",
+      "nodes": {
+        "department_28": {
+          "name": "Отряд ФПС",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_fps"          
+        },
+        "department_29": {
+          "name": "ПЧ №3",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_pch3"          
+        }
+      }
+    },
+    "building_fps": {
+      "name": "Здание ФПС",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_pch3": {
+      "name": "Здание ПЧ №3",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "elizovo_mchs": {
+      "name": "Елизово",
+      "edges": {},
+      "background": "js/layers/local_layers/elizovo.svg",
+      "nodes": {
+        "department_30": {
+          "name": "ПЧ №7",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_pch7"          
+        },
+        "department_31": {
+          "name": "ПЧ №8",
+          "shape": "rect",
+          "color": "#FF5252",
+              "size": 5,
+          "childLayer": "building_pch8"          
+        }
+      }
+    },
+    "building_pch7": {
+      "name": "Здание ПЧ №7",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+                "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_pch8": {
+      "name": "Здание ПЧ №8",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+                "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "koryaki_mchs": {
+      "name": "Коряки",
+      "edges": {},
+      "background": "js/layers/local_layers/koryaki.svg",
+      "nodes": {
+        "department_32": {
+          "name": "ПЧ Коряки",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_koryaki"          
+        }
+      }
+    },
+    "building_koryaki": {
+      "name": "Здание ПЧ Коряки",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "sokoch_mchs": {
+      "name": "Сокоч",
+      "edges": {},
+      "background": "js/layers/local_layers/sokoch.svg",
+      "nodes": {
+        "department_33": {
+          "name": "ПП Сокоч",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_sokoch"          
+        }
+      }
+    },
+    "building_sokoch": {
+      "name": "Здание ПП Сокоч",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "nikolaevka_mchs": {
+      "name": "Николаевка",
+      "edges": {},
+      "background": "js/layers/local_layers/nikolaevka.svg",
+      "nodes": {
+        "department_34": {
+          "name": "ЦОД Николаевка",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_nikolaevka"
+        }
+      }
+    },
+    "building_nikolaevka": {
+      "name": "Здание ЦОД Николаевка",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+                "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "paratunka_mchs": {
+      "name": "Паратунка",
+      "edges": {},
+      "background": "js/layers/local_layers/paratunka.svg",
+      "nodes": {
+        "department_35": {
+          "name": "ПСЧ Паратунка",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_paratunka"
+        }
+      }
+    },
+    "building_paratunka": {
+      "name": "Здание ПСЧ Паратунка",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "viluchinsk_mchs": {
+      "name": "Вилючинск",
+      "background": "js/layers/local_layers/viluchinsk.svg",
+      "edges": {},
+      "nodes": {
+        "locality_31": {
+          "name": "МЧС в районе",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "disvil_mchs"
+        },
+        "department_38": {
+          "name": "ПСЧ №3 Вилючинск",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_psch3"
+        },
+        "department_39": {
+          "name": "ПСЧ №78",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_psch78"
+        }
+        
+      }
+    },
+    "building_psch3": {
+      "name": "Здание ПСЧ №3",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+                "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_psch78": {
+      "name": "Здание ПСЧ №78",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "disvil_mchs":{
+          "name": "Вилючинск район",
+          "background": "js/layers/dist_layers/disvil.svg",
+          "edges": {},
+          "nodes": {
+            "department_36": {
+            "name": "ВКПЗ и СР Вилючинск",
+            "shape": "rect",
+            "color": "#FF5252",
+            "size": 5,
+            "childLayer": "building_vkpz"
+          },
+          "department_37": {
+            "name": "Спец.Управление ФПС№79 Вилючинск",
+            "shape": "rect",
+            "color": "#FF5252",
+            "size": 5,
+          "childLayer": "building_spec"            
+          }
+        }
+    },
+    "building_vkpz": {
+      "name": "Здание ВКПЗ и СР Вилючинск",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "building_spec": {
+      "name": "Здание Спец.Управление ФСП№79",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+                "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    },
+    "aleutsky": {
+      "name": "Алеутский район",
+      "edges": {},
+      "background": "js/layers/dist_layers/aleutsky.svg",
+      "nodes": {
+        "locality_32": {
+          "name": "Никольское",
+          "shape": "circle",
+          "color": "#64B5F6",
+          "size": 5,
+          "childLayer": "nikolskoe_mchs"
+        }
+      }
+    },
+    "nikolskoe_mchs": {
+      "edges": {},
+      "background": "js/layers/local_layers/nikolskoe.svg",
+      "nodes": {
+        "department_40": {
+          "name": "ПЧ Никольское ",
+          "shape": "rect",
+          "color": "#FF5252",
+          "size": 5,
+          "childLayer": "building_nikolskoe"
+        }
+    }  
+    },
+    "building_nikolskoe": {
+      "name": "Здание ПЧ Никольское",
+      "floors": {
+        "floor1": {
+          "name": "Первый этаж",
+          "edges": {},
+          "nodes": {
+            "room1": {
+              "name": "Кабинет начальника",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            },
+            "room2": {
+              "name": "Диспетчерская",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        },
+        "floor2": {
+          "edges": {},
+          "name": "Второй этаж",
+          "nodes": {
+            "room3": {
+              "name": "Спальное помещение",
+              "shape": "rect",
+              "color": "#FFA726",
+              "size": 5
+            }
+          }
+        }
+      }
+    }
+  },
+  "edges": {},
+  "layouts": {
+    "main": {
+      "district_1": {"x": 500, "y": 60}, "district_2": {"x": 600, "y": 150},
+      "district_3": {"x": 470, "y": 210}, "district_4": {"x": 380, "y": 320},
+      "district_5": {"x": 450, "y": 350}, "district_6": {"x": 350, "y": 410},
+      "district_7": {"x": 390, "y": 430}, "district_8": {"x": 310, "y": 440},
+      "district_9": {"x": 320, "y": 520}, "district_10": {"x": 370, "y": 490},
+      "district_11": {"x": 570, "y": 400}
+      
+    },
+    "penzhinsky": {
+      "kamenskoe": {"x": 470, "y": 305},
+      "manil": {"x": 420, "y": 315}
+
+    },
+    "kamen_mchs": {
+      "department_1": {"x": 430, "y": 350}
+    },
+    "building_kamen_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_kamen_floor2": {
+      "room2": {"x": 350, "y": 250}
+    },
+    "manil_mchs": {
+      "department_2": {"x": 720, "y": 430}
+    },
+    "building_manil_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_manil_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "olyutorsky": {
+      "tilichiki": {"x": 250, "y": 450}
+    },
+    "tilich_mchs": {
+      "department_3": {"x": 470, "y": 280}
+    },
+    "building_tilichiki_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_tilichiki_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "karaginsky":{
+      "ossora": {"x": 500, "y": 280},
+      "timlat": {"x": 520, "y": 250},
+      "ivashka": {"x": 450, "y": 380}
+
+    },
+    "ossora_mchs": {
+      "department_4": {"x": 545, "y": 300},
+      "department_5": {"x": 600, "y": 300}
+    },
+    "buildingGims_ossora_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "buildingGims_ossora_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "buildingPch_ossora_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "buildingPch_ossora_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "timlat_mchs": {
+      "department_6": {"x": 510, "y": 210}
+    },
+    "building_timlat_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_timlat_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "ivashka_mchs": {
+      "department_7": {"x":425, "y": 300}
+    },
+    "building_ivashka_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_ivashka_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "tigilsky": {
+      "tigil": {"x": 470, "y": 310},
+      "lesnaya": {"x": 600, "y": 120},      
+      "usthairuzovo": {"x": 330, "y": 410},     
+      "kovran": {"x": 345, "y": 390},      
+      "hairuzovo": {"x": 350, "y": 440}      
+    },
+    "tigil_mchs": {
+      "department_8": {"x": 475, "y": 390}
+    },
+    "building_tigil_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_tigil_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "lesnaya_mchs": {
+      "department_9": {"x": 400, "y": 265}
+    },
+    "building_lesnaya_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_lesnaya_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "usthair_mchs": {
+      "department_10": {"x":530, "y": 220}
+    }, 
+    "building_usthair_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_usthair_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },   
+    "kovran_mchs": {
+      "department_11": {"x": 390, "y": 180}
+    },
+    "building_kovran_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_kovran_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "hairuz_mchs": {
+      "department_12": {"x": 430, "y": 290}
+    },
+    "building_hairuz_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_hairuz_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "ust_kamchatsky": {
+      "locality_12": {"x": 680, "y": 300},
+      "locality_15": {"x": 400, "y": 280}
+    },
+    "dist1_mchs": {
+      "locality_13": {"x": 350, "y": 300},
+      "locality_14": {"x": 690, "y": 250}
+    },
+    "ustkam_mchs": {
+      "department_13": {"x":480, "y": 90}
+    }, 
+    "building_ustkam_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_ustkam_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },       
+    "krut_mchs": {
+      "department_14": {"x": 510, "y": 150}
+    },
+    "building_krut_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_krut_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "keys_mchs": {
+      "department_15": {"x": 430, "y": 360}
+    },
+    "building_keys_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_keys_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "bistrinsky": {
+      "locality_16": {"x": 600, "y": 250}
+    },
+    "milkovsky": {
+      "locality_17": {"x": 350, "y": 350},
+      "locality_18": {"x": 580, "y": 50},
+      "locality_19": {"x": 320, "y": 390}
+    },
+    "milkovo_mchs": {
+      "department_16": {"x":255, "y": 330}
+    },
+    "building_milkovo_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_milkovo_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },        
+    "atlasovo_mchs": {
+      "department_17": {"x": 480, "y": 330}
+    },
+    "building_atlasovo_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_atlasovo_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "sharomi_mchs": {
+      "department_18": {"x": 490, "y": 310}
+    },
+    "building_sharomi_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_sharomi_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "sobolevsky": {
+      "locality_20": {"x": 350, "y": 430}
+    },
+    "ust_bolsherecky": {
+      "locality_21": {"x": 550, "y": 200},
+      "locality_22": {"x": 480, "y": 200}
+    },
+    "apacha_mchs": {
+      "department_19": {"x": 520, "y": 270}
+    },
+    "building_apacha_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_apacha_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "kovalerskoe_mchs": {
+      "department_20": {"x": 400, "y": 385}
+    },
+    "building_kovalerskoe_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_kovalerskoe_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "elizovsky": {
+      "locality_23": {"x": 420, "y": 280}
+    },
+    "dist_mchs": {
+
+      "locality_24": {"x": 750, "y": 280},
+      "locality_25": {"x": 610, "y": 150},
+      "locality_26": {"x": 600, "y": 380},
+
+      "locality_27": {"x": 480, "y": 80},
+      "locality_28": {"x": 140, "y": 200},
+      "locality_29": {"x": 550, "y": 270},
+      "locality_30": {"x": 500, "y": 350}
+    },
+    "petropavlovlsk_mchs": {
+    "locality_31": {"x": 470, "y": 420},
+    "locality_32": {"x": 60, "y": 340},
+    "department_21": {"x": 910, "y": 480},
+    "department_22": {"x": 850, "y": 80},
+    "department_23": {"x": 490, "y": 330},
+    "department_24": {"x": 580, "y": 220},
+    "department_25": {"x": 350, "y": 400}
+    },
+    "building_pch2_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_pch2_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_spsch_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_spsch_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_cod_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_cod_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_sfps_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_sfps_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_vdpo_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_vdpo_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "glav_mchs": {
+      "department_26": {"x": 900, "y": 250},
+      "department_27": {"x": 500, "y": 250}
+    },
+    "building_glav_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_glav_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_pch1_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_pch1_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "pch3_mchs": {
+      "department_28": {"x": 650, "y": 280},
+      "department_29": {"x": 420, "y": 250}
+    }, 
+    "building_fps_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_fps_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_pch3_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_pch3_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "elizovo_mchs": {
+      "department_30": {"x": 300, "y": 270},
+      "department_31": {"x": 820, "y": 220}
+    },
+    "building_pch8_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_pch8_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_pch7_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_pch7_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "koryaki_mchs": {
+      "department_32": {"x": 530, "y": 310}
+    },
+    "building_koryaki_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_koryaki_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "sokoch_mchs": {
+      "department_33": {"x": 450, "y": 220}
+    },
+    "building_sokoch_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_sokoch_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "nikolaevka_mchs": {
+      "department_34": {"x": 120, "y": 370}
+    },
+    "building_nikolaevka_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_nikolaevka_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "paratunka_mchs": {
+      "department_35": {"x": 620, "y": 420}
+    },
+    "building_paratunka_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_paratunka_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "viluchinsk_mchs": {
+      "locality_31": {"x": 300, "y": 190},
+      "department_38": {"x": 330, "y": 450},
+      "department_39": {"x": 620, "y": 230}
+    },
+    "building_psch3_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_psch3_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_psch78_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_psch78_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },        
+    "disvil_mchs": {
+      "department_36": {"x": 200, "y": 390},
+      "department_37": {"x": 680, "y": 140}
+    },
+    "building_vkpz_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_vkpz_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },
+    "building_spec_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_spec_floor2": {
+      "room2": {"x": 300, "y": 200}
+    },    
+    "aleutsky": {
+      "locality_32": {"x": 180, "y": 200}
+    },
+    "building_nikolskoe_floor1": {
+      "room1": {"x": 300, "y": 200}
+    },
+    "building_nikolskoe_floor2": {
+      "room2": {"x": 300, "y": 200}
+    }
+
+  }
+}
