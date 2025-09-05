@@ -1,0 +1,13 @@
+.idea/
+fonts/
+
+# OS-specific
+Thumbs.db
+Desktop.ini
+
+# Node/JS tooling (future-proofing)
+node_modules/
+dist/
+*.log
+
+
