@@ -3,7 +3,7 @@
     "main": {
       "name": "Карта Камчатского Края",
       "edges": {},
-      "background": "js/layers/main_layer1.svg",
+      "background": "js/layers/Vulcannaya1F.svg",
       "nodes": {
           "district_1": { 
             "name": "Пенжиский район", 
